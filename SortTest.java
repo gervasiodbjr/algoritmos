@@ -82,8 +82,9 @@ public class SortTest {
     public static int[] createArray(int size, int min, int max) {
         Random random = new Random();
         int[] arr = new int[size];
+        int bound = max - min;
         for (int i = 0; i < size; i++) {
-            arr[i] = random.nextInt(min, max);
+            arr[i] = min + random.nextInt(bound);
         }
         return arr;
     }
