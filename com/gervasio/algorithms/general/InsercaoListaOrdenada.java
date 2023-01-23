@@ -1,3 +1,5 @@
+package com.gervasio.algorithms.general;
+
 import java.util.Arrays;
 
 public class InsercaoListaOrdenada {

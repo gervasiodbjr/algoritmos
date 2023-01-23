@@ -1,3 +1,5 @@
+package com.gervasio.algorithms.datastructure;
+
 import java.util.Arrays;
 import java.util.SortedSet;
 import java.util.TreeSet;

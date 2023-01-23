@@ -1,3 +1,4 @@
+package com.gervasio.algorithms.ordenation;
 
 public class SelectionSort implements Sort {
     
