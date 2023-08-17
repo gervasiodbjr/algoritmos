@@ -4,6 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Fibonacci01 {
+
+    public static void main(String[] args) {
+        
+        List<Integer> list = fibonnacci(20);
+        System.out.println(list.toString());
+
+    }
     
     static List<Integer> fibonnacci(Integer num) {
         List<Integer> serie = new ArrayList<>();
@@ -15,13 +22,6 @@ public class Fibonacci01 {
             }
         }
         return serie;
-    }
-
-    public static void main(String[] args) {
-        
-        List<Integer> list = fibonnacci(20);
-        System.out.println(list.toString());
-
     }
     
 }
